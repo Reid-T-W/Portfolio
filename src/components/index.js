@@ -3,8 +3,11 @@ import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
 import Tech from './Tech';
+// import Experience from './Education';
+import Education from './Education';
 import Experience from './Experience';
-import Works from './Works';
+import Project from './Project';
+import Blog from './Blog';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 
@@ -14,7 +17,9 @@ export {
   About,
   Tech,
   Experience,
-  Works,
+  Education,
+  Project,
+  Blog,
   Feedbacks,
   Contact,
   EarthCanvas, 

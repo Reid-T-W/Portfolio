@@ -23,6 +23,32 @@ import {
     jobit,
     tripguide,
     threejs,
+    gmailIconSvg,
+    linkedinIconSvg,
+    githubIconSvg,
+    portfolioIconSvg,
+    github,
+    alxLogoPng,
+    hilcoeLogoJpeg,
+    aaitLogoJpeg,
+    c,
+    express,
+    flask,
+    haproxy,
+    jquery,
+    keras,
+    materialUi,
+    mysql,
+    nginx,
+    python,
+    redis,
+    sequelize,
+    project_reconnect,
+    blog_reconnect,
+    blog_google,
+    lase_philips,
+    teshome_kurabachew,
+    testimonial_pic_placeholder,
   } from "../assets";
   
   export const navLinks = [
@@ -31,8 +57,20 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "education",
+      title: "Education",
+    },
+    {
+      id: "projects",
+      title: "Projects",
+    },
+    {
+      id: "blogs",
+      title: "Blogs",
+    },
+    {
+      id: "testimonials",
+      title: "Testimonials",
     },
     {
       id: "contact",
@@ -40,53 +78,48 @@ import {
     },
   ];
   
-  const services = [
+  const portfolio = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Portfolio",
+      icon: portfolioIconSvg,
+      source_link: "https://drive.google.com/file/d/1H0Nviau-bsBDfr6B07tapUfoLRHllXQr/view?usp=sharing",
+    }
+  ];
+
+  const socials = [
+    {
+      title: "Github",
+      icon: githubIconSvg,
+      source_link: "https://github.com/Reid-T-W",
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Linkedin",
+      icon: linkedinIconSvg,
+      source_link: "https://www.linkedin.com/in/rediet-tadesse-43209013b/",
     },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
+      title: "Gmail",
+      icon: gmailIconSvg,
+      source_link: "#contact" 
     },
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
@@ -97,169 +130,249 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
+    // {
+    //   name: "haproxy",
+    //   icon: haproxy,
+    // },
     {
-      name: "figma",
-      icon: figma,
+      name: "flask",
+      icon: flask,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "express",
+      icon: express,
     },
+    {
+      name: "c",
+      icon: c,
+    },
+    {
+      name: "keras",
+      icon: keras,
+    },
+    // {
+    //   name: "materialUi",
+    //   icon: materialUi,
+    // },
+    {
+      name: "nginx",
+      icon: nginx,
+    },
+    // {
+    //   name: "mysql",
+    //   icon: mysql,
+    // },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "redis",
+      icon: redis,
+    },
+    {
+      name: "sequelize",
+      icon: sequelize,
+    },       
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineering Program with a specialization in \
+      backend development",
+      company_name: "ALX Africa",
+      icon: alxLogoPng,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2022 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "A very instensive and highly practical one-year Software Engineering program requiring 70 hours per",
+        "Focused on an in-depth learning of lower level programming using C, Data Structures and Algorithms, Linux, Higher Level Programming using Python and Javascript, Web Development, System Engineering, and Devops",
+        "Includes a specialization in Backend development",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Masters in Software Engineering",
+      company_name: "HiLCoE School of Computer Science and Technology",
+      icon: hilcoeLogoJpeg,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Oct 2018 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "A program focused on requirements engineering, software architecture, information \
+        systems security, Distributed computing, Software project Manament, Data mining, and \
+        Research methodology.",
+        "My final thesis focused on using deep lightweight convolutional \
+        neural networks for the task of Age Invariant Face Recognition. \
+        ",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Bridging Program to MSc in Software Engineering",
+      company_name: "HiLCoE School of Computer Science and Technology",
+      icon: hilcoeLogoJpeg,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Sep 2017 - Sep 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "A one year program focused on problem solving with programming using C++, Object \
+        Oriented Programming using Java, Data structures and algorithms, Database, and \
+        Fundamentals of OS and Networking .",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "BSc in Civil Engineering",
+      company_name: "Addis Ababa Institute of Technology",
+      icon: aaitLogoJpeg,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "2012/2013-2016/2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        
       ],
     },
   ];
   
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      testimonial: `Rediet is a remarkable individual with whom we have had the privilege of collaborating closely over the past six months. As a valued member of our peer learning group, Rediet has consistently demonstrated a profound passion for software engineering and a remarkable commitment to personal and professional growth. Throughout our weekly meetings, Rediet exhibited an exceptional aptitude for grasping complex concepts, particularly in discussions on projects, data structures, and algorithms. Her ability to delve deeply into intricate problem-solving scenarios, meticulously dissect challenges, and identify optimal courses of action sets her apart as an invaluable asset to any team. What truly distinguishes Rediet is her unwavering dedication to her software engineering goals. She approaches every endeavor with an unwavering sense of purpose, seeking excellence in every aspect of her work. Her tenacity and drive serve as an inspiring example to us fortunate enough to work alongside her. Beyond her technical acumen, Rediet's collaborative spirit and open-mindedness have fostered a nurturing environment within our group. Her willingness to share ideas and provide insightful advice has been instrumental in the collective growth and development of each team member. It is without reservation that I recommend Rediet for any opportunity that aligns with her aspirations. She possesses the qualities of a true leader and a diligent problem solver, making her an ideal candidate for any endeavor she chooses to undertake. I do not doubt that Rediet will make significant contributions to any organization fortunate enough to have her on board. If you require further information or insights about Rediet, please do not hesitate to reach out. It would be my pleasure to elaborate on her exceptional qualities and potential.`,
+      name: "Nick Nyanjui",
+      designation: "Software Engineer",
+      company: "from SE Peer Learning Group",
+      image: testimonial_pic_placeholder,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I wholeheartedly recommend Rediet for any development team or project. We're both enrolled in the Software Engineering master's program, where we tackle different projects. Whenever we collaborate, it becomes evident that she possesses a profound understanding of her field and conducts herself with utmost professionalism. One remarkable quality about Rediet is her ability to take charge during discussions and contribute ideas confidently. She has a natural knack for problem-solving and consistently impresses me with her innovative solutions. It's like she has an endless supply of brilliant ideas! What truly sets Rediet apart from others is her unwavering commitment to seeing every project through completion. Once she takes on a task, there's no stopping her until it's done. Her level of dedication is truly awe-inspiring and demonstrates immense perseverance. I genuinely believe that Rediet deserves all the success she dreams of because she possesses exceptional skills coupled with unwavering determination. There are absolutely no limits to what she can achieve when given the opportunity.",
+      name: "Teshome Kurabachew",
+      designation: "Full-stack Developer | Software Engineer | DevOps Engineer",
+      company: "",
+      image: teshome_kurabachew,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Having collaborated with Rediet on multiple projects during my ALX software engineering program, I can confidently say that she is an exceptional project partner. Her intelligence, efficient and clean coding skills, and keen eye for detecting bugs have consistently impressed me. I wholeheartedly recommend Rediet, as her contributions undoubtedly elevate any team and project she's involved in.",
+      name: "Lase Philips",
+      designation: "Software Engineer",
+      company: "",
+      image: lase_philips,
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "SewLeSew",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "SewLeSew is an app that helps us support each other, its a funding platform that is inspired by GoFundMe, the main difference being that, SewLeSew uses a local digital payment system.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "node",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "material ui",
           color: "pink-text-gradient",
+        },
+        {
+          name: "sequelize",
+          color: "orange-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Reid-T-W/SewLeSew",
     },
     {
-      name: "Job IT",
+      name: "ReConnect",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "ReConnect is a web app that helps in connect missing people with their loved ones. An individual can report a person as missing to the ReConnect System, and other people can search if an individual has been reported as missing, the search and retrieval will be done via face recognition.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "jquery",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "ajax",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "facenet",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+      image: project_reconnect,
+      source_code_link: "https://github.com/Reid-T-W/ReConnect",
+    }
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  const blogs = [
+    {
+      name: "What happens when you type https://www.google.com and press Enter",
+      description:
+        "SewLeSew is an app that helps us support each other, its a funding platform that is inspired by GoFundMe, the main difference being that, SewLeSew uses a local digital payment system.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: blog_google,
+      source_code_link: "https://medium.com/@rediettadesse100/what-happens-when-you-type-https-www-google-com-and-press-enter-6ba0fc25924c",
+    },
+    {
+      name: "How I built ReConnect, a simple web app that connects missing people with their loved ones.",
+      description:
+        "ReConnect is a web app that helps in connect missing people with their loved ones. An individual can report a person as missing to the ReConnect System, and other people can search if an individual has been reported as missing, the search and retrieval will be done via face recognition.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "jquery",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "ajax",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "facenet",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: blog_reconnect,
+      source_code_link: "https://medium.com/@rediettadesse100/how-i-built-reconnect-a-simple-web-app-that-connects-missing-people-with-their-loved-ones-541fda6031ba",
+    }
+  ];
+  export { portfolio, socials, technologies, experiences, testimonials, projects, blogs };

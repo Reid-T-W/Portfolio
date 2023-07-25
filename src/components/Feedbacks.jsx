@@ -9,12 +9,12 @@ const FeedbackCard = ({ index, testimonial, name, designation,
   company, image }) => (
     <motion.div
       variants={fadeIn("", "spring", index * 0.5, 0.75)}
-      className="bg-black-200 p-10 rounded-3xl xs:w-[320px]
+      className="bg-black-200 p-10 rounded-3xl xs:w-[700px]
       w-full">
 
       <p className="text-white font-black text-[48px]">"</p>
       <div className="mt-1">
-        <p className="text-white tracking-wider text-[18px]">
+        <p className="text-white tracking-wider text-[14px]">
           {testimonial}
         </p>
         <div className="mt-7 flex justify-between items-center
@@ -24,7 +24,7 @@ const FeedbackCard = ({ index, testimonial, name, designation,
               <span className="blue-text-gradient">@</span> {name}
             </p>
             <p className="mt-1 text-secondary text-[12px]">
-              {designation} of {company}
+              {designation} {company}
             </p>
           </div>
 
@@ -50,7 +50,7 @@ const Feedbacks = () => {
         </motion.div>
       </div>
 
-      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
+      <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7 justify-center`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard
             key={testimonial.name}
@@ -63,4 +63,4 @@ const Feedbacks = () => {
   )
 }
 
-export default SectionWrapper(Feedbacks, "");
+export default SectionWrapper(Feedbacks, "testimonials");

@@ -28,32 +28,32 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    emailjs.send('service_bm3gkv6', 
+                'template_0mpz9tv',
+                {
+                  from_name: form.name,
+                  to_name: 'Rediet',
+                  from_email: form.email,
+                  to_email: 'rediettadesse100@gmail.com',
+                  message: form.message,
+                  reply_to: form.email,
+                },
+                '15U7AEAryTGZOrtAW'
+                )
+                .then(()=> {
+                  setLoading(false);
+                  alert('Thank you, I will get back to you as soon as possible.');
 
-  emailjs.send('service_bm3gkv6', 
-              'template_0mpz9tv',
-              {
-                from_name: form.name,
-                to_name: 'Rediet',
-                from_email: form.email,
-                to_email: 'rediettadesse100@gmail.com',
-                message: form.message,
-              },
-              '15U7AEAryTGZOrtAW'
-              )
-              .then(()=> {
-                setLoading(false);
-                alert('Thank you, I will get back to you as soon as possible.');
-
-                setForm({
-                  name: "",
-                  email: "",
-                  message: "",
+                  setForm({
+                    name: "",
+                    email: "",
+                    message: "",
+                  })
+                }, (error) => {
+                  setLoading(false);
+                  console.log(error);
+                  alert('Sorry, something went wrong. Please try again later.');
                 })
-              }, (error) => {
-                setLoading(false);
-                console.log(error);
-                alert('Sorry, something went wrong. Please try again later.');
-              })
   }
 
   return (

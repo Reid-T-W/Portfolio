@@ -194,7 +194,7 @@ import {
       ],
     },
     {
-      title: "Masters in Software Engineering",
+      title: "Masters in Software Engineering (4.0 CGPA)",
       company_name: "HiLCoE School of Computer Science and Technology",
       icon: hilcoeLogoJpeg,
       iconBg: "#E6DEDD",
@@ -209,7 +209,7 @@ import {
       ],
     },
     {
-      title: "Bridging Program to MSc in Software Engineering",
+      title: "Bridging Program to MSc in Software Engineering (4.0 CGPA)",
       company_name: "HiLCoE School of Computer Science and Technology",
       icon: hilcoeLogoJpeg,
       iconBg: "#383E56",
@@ -221,7 +221,7 @@ import {
       ],
     },
     {
-      title: "BSc in Civil Engineering",
+      title: "BSc in Civil Engineering (3.52 CGPA)",
       company_name: "Addis Ababa Institute of Technology",
       icon: aaitLogoJpeg,
       iconBg: "#E6DEDD",

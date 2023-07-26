@@ -53,6 +53,7 @@ import alxLogoPng from "./alxLogoPng.png";
 import hilcoeLogoJpeg from "./hilcoeLogoJpeg.jpg";
 import aaitLogoJpeg from "./aaitLogoJpeg.jpg";
 import project_reconnect from "./project_reconnect.png";
+import project_sewlesew from "./project_sewlesew.png";
 
 import medium from "./medium.svg";
 import blog_reconnect from "./blog_reconnect.png";
@@ -117,4 +118,5 @@ export {
   lase_philips,
   teshome_kurabachew,
   testimonial_pic_placeholder,
+  project_sewlesew,
 };

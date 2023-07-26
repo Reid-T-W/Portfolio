@@ -49,6 +49,7 @@ import {
     lase_philips,
     teshome_kurabachew,
     testimonial_pic_placeholder,
+    project_sewlesew,
   } from "../assets";
   
   export const navLinks = [
@@ -281,7 +282,7 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: carrent,
+      image: project_sewlesew,
       source_code_link: "https://github.com/Reid-T-W/SewLeSew",
     },
     {

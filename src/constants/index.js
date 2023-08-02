@@ -81,7 +81,7 @@ import {
   
   const portfolio = [
     {
-      title: "Portfolio",
+      title: "Resume",
       icon: portfolioIconSvg,
       source_link: "https://drive.google.com/file/d/1H0Nviau-bsBDfr6B07tapUfoLRHllXQr/view?usp=sharing",
     }

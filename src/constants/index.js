@@ -88,7 +88,7 @@ import {
       title: "Resume",
       icon: portfolioIconSvg,
       // source_link: "https://drive.google.com/file/d/1H0Nviau-bsBDfr6B07tapUfoLRHllXQr/view?usp=sharing",
-      source_link: "https://drive.google.com/file/d/1XtcD5KfqnnhiWDc-IaMldLkjgO_bqBeO/view?usp=sharing",
+      source_link: "https://drive.google.com/file/d/1h7IDsjfMvlsLsVEfoVR8zXEw_oncI_aa/view?usp=sharing",
     }
   ];
 

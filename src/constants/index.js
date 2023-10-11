@@ -50,6 +50,10 @@ import {
     teshome_kurabachew,
     testimonial_pic_placeholder,
     project_sewlesew,
+    cubeseed,
+    e4e,
+    aau,
+    django_rest_framework,
   } from "../assets";
   
   export const navLinks = [
@@ -83,7 +87,8 @@ import {
     {
       title: "Resume",
       icon: portfolioIconSvg,
-      source_link: "https://drive.google.com/file/d/1H0Nviau-bsBDfr6B07tapUfoLRHllXQr/view?usp=sharing",
+      // source_link: "https://drive.google.com/file/d/1H0Nviau-bsBDfr6B07tapUfoLRHllXQr/view?usp=sharing",
+      source_link: "https://drive.google.com/file/d/18XXKqjh0EBg53AgXoXgUR8R64499hB0a/view?usp=sharing",
     }
   ];
 
@@ -177,7 +182,11 @@ import {
     {
       name: "sequelize",
       icon: sequelize,
-    },       
+    },
+    {
+      name: "django_rest_framework",
+      icon: django_rest_framework,
+    }   
   ];
   
   const experiences = [
@@ -376,4 +385,53 @@ import {
       source_code_link: "https://medium.com/@rediettadesse100/how-i-built-reconnect-a-simple-web-app-that-connects-missing-people-with-their-loved-ones-541fda6031ba",
     }
   ];
-  export { portfolio, socials, technologies, experiences, testimonials, projects, blogs };
+
+  const work_experiences = [
+    {
+      title: "Volunteer Backend Developer",
+      company_name: "Cubeseed Africa, Lagos Nigeria (Remote)",
+      icon: cubeseed,
+      iconBg: "#ffffff",
+      date: "Aug 2023 - Present",
+      points: [
+        "Building APIs using Django Rest Framework",
+        "Integrating AWS for storage",
+        "Building the chat system using Django Channels",
+        "Writing clean, efficient, and well-documented code using the Python programming language.",
+        "Testing code to ensure a high-quality user experience.",
+        "Working with a diverse team from different parts of the world"
+      ],
+    },
+    {
+      title: "Technical Support and YouTube Channel Optimization (Part Time)",
+      company_name: "Education for Ethiopia, Addis Ababa Ethiopia",
+      icon: e4e,
+      iconBg: "#2c2d2b",
+      date: "June 2021 - Oct 2021",
+      points: [
+        "Providing technical support on the Saquama app launch, assisting the CTO in the localization of the app.",
+        "Leading the YouTube channel optimization and revamp",
+      ],
+    },
+    {
+      title: "Pilot app launch Coordinator (Part Time)",
+      company_name: "Education for Ethiopia, Addis Ababa Ethiopia",
+      icon: e4e,
+      iconBg: "#2c2d2b",
+      date: "Dec 2020 - Mar 2021",
+      points: [
+        "Coordinating the pilot of the Squama app at four public schools in Ethiopia",
+      ],
+    },
+    {
+      title: "Research Assistant (Civil Engineering)",
+      company_name: "Addis Ababa Institute of Technology, Addis Ababa Ethiopia",
+      icon: aau,
+      iconBg: "#ffffff",
+      date: "Nov 2017 - May 2021",
+      points: [
+        "Research Assistant on a green construction research project, titled, Industrial Ecology for the sustainable use of Concrete",
+      ],
+    },
+  ]
+  export { portfolio, socials, technologies, experiences, testimonials, projects, blogs, work_experiences };

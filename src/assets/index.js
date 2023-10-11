@@ -32,6 +32,7 @@ import nginx from "./tech/nginx.png";
 import python from "./tech/python.png";
 import redis from './tech/redis.png';
 import sequelize from './tech/sequelize.png';
+import django_rest_framework from './tech/django_rest_framework.png';
 
 
 
@@ -62,6 +63,10 @@ import blog_google from "./blog_google.png";
 import lase_philips from "./lase_philips.jpg";
 import teshome_kurabachew from "./teshome_kurabachew.jpeg";
 import testimonial_pic_placeholder from "./testimonial_pic_placeholder.png";
+
+import cubeseed from "./cubeseed.jpeg";
+import e4e from "./e4e.png"
+import aau from "./aau.jpg"
 
 export {
   logo,
@@ -119,4 +124,8 @@ export {
   teshome_kurabachew,
   testimonial_pic_placeholder,
   project_sewlesew,
+  cubeseed,
+  e4e,
+  aau,
+  django_rest_framework,
 };

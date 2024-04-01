@@ -67,6 +67,7 @@ import testimonial_pic_placeholder from "./testimonial_pic_placeholder.png";
 import cubeseed from "./cubeseed.jpeg";
 import e4e from "./e4e.png"
 import aau from "./aau.jpg"
+import nilesync from "./nilesync_logo.png"
 
 export {
   logo,
@@ -127,5 +128,6 @@ export {
   cubeseed,
   e4e,
   aau,
+  nilesync,
   django_rest_framework,
 };

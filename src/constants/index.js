@@ -53,6 +53,7 @@ import {
     cubeseed,
     e4e,
     aau,
+    nilesync,
     django_rest_framework,
   } from "../assets";
   
@@ -88,7 +89,12 @@ import {
       title: "Resume",
       icon: portfolioIconSvg,
       // source_link: "https://drive.google.com/file/d/1H0Nviau-bsBDfr6B07tapUfoLRHllXQr/view?usp=sharing",
-      source_link: "https://drive.google.com/file/d/1h7IDsjfMvlsLsVEfoVR8zXEw_oncI_aa/view?usp=sharing",
+
+      // version 1
+      // source_link: "https://drive.google.com/file/d/1h7IDsjfMvlsLsVEfoVR8zXEw_oncI_aa/view?usp=sharing",
+
+      // version 2
+      source_link: "https://drive.google.com/file/d/1gdTJSwL9_K8l4M9PTMNRgfDdDUEZ6ddQ/view?usp=sharing",
     }
   ];
 
@@ -383,6 +389,18 @@ import {
   ];
 
   const work_experiences = [
+    {
+      title: "Software Engineer",
+      company_name: "NileSync, Addis Ababa Ethiopia",
+      icon: nilesync,
+      iconBg: "#ffffff",
+      date: "Feb 2024 - Present",
+      points: [
+        "Working on the front and backend of a big scale client project, mainly using Django \
+        REST framework, React, XState, and Material UI",
+        "Worked on the company’s website using Next.js"
+      ],
+    },
     {
       title: "Volunteer Backend Developer",
       company_name: "Cubeseed Africa, Lagos Nigeria (Remote)",

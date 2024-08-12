@@ -97,7 +97,7 @@ import {
       // source_link: "https://drive.google.com/file/d/1gdTJSwL9_K8l4M9PTMNRgfDdDUEZ6ddQ/view?usp=sharing",
 
       // version 3
-      source_link: "https://drive.google.com/file/d/1efzZoejrsAzMYv5Ftbtd1aZqVlUdm42x/view?usp=sharing",
+      source_link: "https://drive.google.com/file/d/1hu_wxUr7hwE7qI2FzH0sPcu1PEVmfLTh/view?usp=sharing",
     }
   ];
 
@@ -399,8 +399,9 @@ import {
       iconBg: "#ffffff",
       date: "Feb 2024 - Present",
       points: [
-        "Participated on projects that span the construction and legal sector",
+        "Participated on remote projects that span the construction and legal sector",
         "Collaborated effectively with a team of developers on both frontend and backend tasks, contributing to the successful deployment of a complex web application",
+        "Collaborated with the client to thoroughly understand and clarify project requirements, ensuring alignment with business goals",
         "Gained exposure to the use of various AWS services in a professional environment. Developed an understanding of the various services, by reviewing CI/CD pipelines and deployment architectures created by the development team",
         "Worked with various frameworks, tools, and libraries, including Fast api, Django REST framework, Serverless Frawework, Nextjs, XState, Material UI, RTK Query, SQLAlchemy, Pydantic, Vis Timeline, AG grid, Git, Github etc.",
         "Integrated Stripe Subscriptions and handled the full subscription lifecycle using events received from Stripe, this includes handling trials, subscription updates (with price adjustments), scheduled subscription downgrades, updating users default payment methods, handling failed payments etc"

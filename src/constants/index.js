@@ -398,7 +398,7 @@ import {
       points: [
         "Participated on projects that span the construction and legal sector",
         "Collaborated effectively with a team of developers on both frontend and backend tasks, contributing to the successful deployment of a complex web application",
-        "Gained exposure to the use of various AWS services in a professional environment. Enhancing my understanding of cloud-based infrastructure and deployment practices",
+        "Gained exposure to the use of various AWS services in a professional environment. Developed an understanding of the various services, by reviewing implementations created by the development team",
         "Worked with various frameworks, tools, and libraries, including Fast api, Django REST framework, Serverless Frawework, Nextjs, React, XState, Material UI, Redux, RTK Query, Sql Alchemy, Pydantic, Vis Timeline and AG grid",
         "Integrated Stripe Subscriptions and handled the full subscription lifecycle using events received from Stripe, this includes handling trials, subscription updates (with price adjustments), scheduled subscription downgrades, updating users default payment methods, handling failed payments etc"
       ],

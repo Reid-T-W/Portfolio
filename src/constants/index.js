@@ -96,8 +96,12 @@ import {
       // version 2
       // source_link: "https://drive.google.com/file/d/1gdTJSwL9_K8l4M9PTMNRgfDdDUEZ6ddQ/view?usp=sharing",
 
-      // version 3
-      source_link: "https://drive.google.com/file/d/1hu_wxUr7hwE7qI2FzH0sPcu1PEVmfLTh/view?usp=sharing",
+      // version 3 AWS Application
+      // source_link: "https://drive.google.com/file/d/1hu_wxUr7hwE7qI2FzH0sPcu1PEVmfLTh/view?usp=sharing",
+
+      // verison 4 Google Research Application
+      source_link: "https://drive.google.com/file/d/1iq4ysVeCdv-SOKITojdZW8hhZbch6k1o/view?usp=sharing",
+
     }
   ];
 

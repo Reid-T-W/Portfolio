@@ -198,18 +198,25 @@ import {
     }   
   ];
   
-  const experiences = [
+  const education = [
     {
       title: "Software Engineering Program with a specialization in \
       backend development",
-      company_name: "ALX Africa",
+      company_name: "ALX",
       icon: alxLogoPng,
       iconBg: "#383E56",
       date: "March 2022 - May 2023",
       points: [
-        "A very instensive and highly practical one-year Software Engineering program requiring 70 hours per",
-        "Focused on an in-depth learning of lower level programming using C, Data Structures and Algorithms, Linux, Higher Level Programming using Python and Javascript, Web Development, System Engineering, and Devops",
-        "Includes a specialization in Backend development",
+        "A very instensive and highly practical one-year Software Engineering program requiring 70 hours per week",
+        `Focused on an in-depth learning of lower level programming using         
+          - Lower-level programming using C, 
+          - Data Structures and Algorithms, 
+          - Linux, 
+          - Higher Level Programming using Python and Javascript, 
+          - Web Development, 
+          - System Engineering, and 
+          - Devops`,
+        "Completed my specialization in backend development.",
       ],
     },
     {
@@ -219,9 +226,15 @@ import {
       iconBg: "#E6DEDD",
       date: "Oct 2018 - June 2023",
       points: [
-        "A program focused on requirements engineering, software architecture, information \
-        systems security, Distributed computing, Software project Manament, Data mining, and \
-        Research methodology.",
+        "Graduated with a 4.0 CGPA and an excellent grade on my research thesis",
+        `A program focused on 
+          - Requirements engineering, 
+          - Software architecture, 
+          - Information systems security, 
+          - Distributed computing, 
+          - Software project Manament, 
+          - Data mining, and
+          - Research methodology`,
         "My final thesis focused on using deep lightweight convolutional \
         neural networks for the task of Age Invariant Face Recognition. \
         ",
@@ -234,9 +247,12 @@ import {
       iconBg: "#383E56",
       date: "Sep 2017 - Sep 2018",
       points: [
-        "A one year program focused on problem solving with programming using C++, Object \
-        Oriented Programming using Java, Data structures and algorithms, Database, and \
-        Fundamentals of OS and Networking .",
+        `A one year program focused on 
+          - Problem solving with programming using C++, 
+          - Object Oriented Programming using Java, 
+          - Data structures and algorithms, 
+          - Database, and
+          - Fundamentals of OS and Networking`,
       ],
     },
     {
@@ -397,18 +413,18 @@ import {
 
   const work_experiences = [
     {
-      title: "Software Engineer",
+      title: "Junior Developer",
       company_name: "NileSync, Addis Ababa Ethiopia",
       icon: nilesync,
       iconBg: "#ffffff",
-      date: "Feb 2024 - Present",
+      date: "Feb 2024 - Aug 2024",
       points: [
         "Participated on remote projects that span the construction and legal sector",
-        "Collaborated effectively with a team of developers on both frontend and backend tasks, contributing to the successful deployment of a complex web application",
+        "Collaborated effectively with a team of developers on both frontend and backend tasks",
         "Collaborated with the client to thoroughly understand and clarify project requirements, ensuring alignment with business goals",
-        "Gained exposure to the use of various AWS services in a professional environment. Developed an understanding of the various services, by reviewing CI/CD pipelines and deployment architectures created by the development team",
+        "Integrated Stripe Subscriptions and handled the full subscription lifecycle using events received from Stripe, this includes handling trials, subscription updates (with price adjustments), scheduled subscription downgrades, updating users default payment methods, handling failed payments etc",
         "Worked with various frameworks, tools, and libraries, including Fast api, Django REST framework, Serverless Frawework, Nextjs, XState, Material UI, RTK Query, SQLAlchemy, Pydantic, Vis Timeline, AG grid, Git, Github etc.",
-        "Integrated Stripe Subscriptions and handled the full subscription lifecycle using events received from Stripe, this includes handling trials, subscription updates (with price adjustments), scheduled subscription downgrades, updating users default payment methods, handling failed payments etc"
+        "Gained exposure to the use of various AWS services in a professional environment. Developed an understanding of the various services, by reviewing CI/CD pipelines and deployment architectures created by the development team",       
       ],
     },
     {
@@ -416,12 +432,11 @@ import {
       company_name: "Cubeseed Africa, Lagos Nigeria (Remote)",
       icon: cubeseed,
       iconBg: "#ffffff",
-      date: "Aug 2023 - Present",
+      date: "Aug 2023 - April 2024",
       points: [
         "Building APIs using Django Rest Framework",
-        "Integrating AWS for storage",
-        "Building the chat system using Django Channels",
-        "Writing clean, efficient, and well-documented code using the Python programming language.",
+        "Built the backend for a chat system using Django Channels and integrated AWS",
+        "Wrote clean, efficient, and well-documented code using the Python programming language.",
         "Testing code to ensure a high-quality user experience.",
         "Working with a diverse team from different parts of the world"
       ],
@@ -454,8 +469,10 @@ import {
       iconBg: "#ffffff",
       date: "Nov 2017 - May 2021",
       points: [
-        "Research Assistant on a green construction research project, titled, Industrial Ecology for the sustainable use of Concrete",
+        "Engaged extensively with over a dozen government offices and private factories, managing significant back-and-forth communication to successfully conduct a large-scale feasibility study",
+        "Actively contributed to facilitating the research by addressing challenging situations with persistence and effective communication with stakeholders",
+        "Worked on various research tasks which include, sample collection, performing literature reviews, planning experimental programs, carrying out laboratory tests, analyzing results, generating reports, performing wide scale feasibility studies etc."
       ],
     },
   ]
-  export { portfolio, socials, technologies, experiences, testimonials, projects, blogs, work_experiences };
+  export { portfolio, socials, technologies, education, testimonials, projects, blogs, work_experiences };

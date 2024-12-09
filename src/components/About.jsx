@@ -84,20 +84,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]"
       >
-        I’m an all rounded person that loves
-        learning. I started out my career as
-        a research assistant in the civil 
-        engineering sector, but my deep passion 
-        for tech led me to pursue my master’s
-        in software engineering at HiLCoE School
-        of Computer Science and Technology, I 
-        also enrolled in one of the most intensive
-         bootcamps out there, the ALX Software 
-         Engineering bootcamp where I got to 
-         specialize in backend engineering, so 
-         it’s not only software engineering 
-         skills I bring to the table, but also 
-         research and multi-tasking skills. 
+        A humble, reliable and self-driven Software Engineer committed to delivering high-quality solutions. With a passion for learning and a strong ability to adapt, I focus on working collaboratively to achieve project goals and exceed expectations while continuously growing my skills and knowledge.
       </motion.p>
       <div className="mt-20">
         <div className="mt-20 flex flex-wrap gap-10 justify-center">

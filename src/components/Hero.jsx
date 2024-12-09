@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import YoutubeVideo from './YoutubeVideo';
+import PointPatterns from './canvas/PointPatterns';
 // import { ComputerCanvas } from './canvas';
 
 const Hero = () => {
@@ -19,14 +21,21 @@ const Hero = () => {
               Rediet </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}> A Software Engineer focused <br/>
-          on Backend development.
+          on Backend heavy Full-stack development.
           <br className="sm:block hidden"/></p>
         </div>  
       </div>
+      {/* <Connectors /> */}
+      <div className='flex flex-row justify-center absolute inset-0 top-[360px] p-4'>
+        {/* <ComputersCanvas className='grow-0' /> */}
+          <YoutubeVideo className='grow relative z-10' />
+        
+        
+        
+      </div>
+      <PointPatterns />
 
-      <ComputersCanvas />
-
-      <div className="absolute xs:bottom-10
+      {/* <div className="absolute xs:bottom-10
       bottom-32 w-full flex justify-center
       items-center">
         <a href="#about">
@@ -49,7 +58,7 @@ const Hero = () => {
 
         </a>
 
-      </div>
+      </div> */}
     
     </section>
   )

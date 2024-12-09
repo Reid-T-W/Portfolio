@@ -145,7 +145,7 @@ import {
       icon: nodejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     // {
@@ -153,19 +153,19 @@ import {
     //   icon: haproxy,
     // },
     {
-      name: "flask",
+      name: "Flask",
       icon: flask,
     },
     {
-      name: "express",
+      name: "Express",
       icon: express,
     },
     {
-      name: "c",
+      name: "C",
       icon: c,
     },
     {
-      name: "keras",
+      name: "Keras",
       icon: keras,
     },
     // {
@@ -173,7 +173,7 @@ import {
     //   icon: materialUi,
     // },
     {
-      name: "nginx",
+      name: "Nginx",
       icon: nginx,
     },
     // {
@@ -181,19 +181,19 @@ import {
     //   icon: mysql,
     // },
     {
-      name: "python",
+      name: "Python",
       icon: python,
     },
     {
-      name: "redis",
+      name: "Redis",
       icon: redis,
     },
     {
-      name: "sequelize",
+      name: "Sequelize",
       icon: sequelize,
     },
     {
-      name: "django_rest_framework",
+      name: "Django_rest_framework",
       icon: django_rest_framework,
     }   
   ];

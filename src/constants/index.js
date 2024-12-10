@@ -269,7 +269,17 @@ import {
   
   const testimonials = [
     {
-      testimonial: `Rediet is a remarkable individual with whom we have had the privilege of collaborating closely over the past six months. As a valued member of our peer learning group, Rediet has consistently demonstrated a profound passion for software engineering and a remarkable commitment to personal and professional growth. Throughout our weekly meetings, Rediet exhibited an exceptional aptitude for grasping complex concepts, particularly in discussions on projects, data structures, and algorithms. Her ability to delve deeply into intricate problem-solving scenarios, meticulously dissect challenges, and identify optimal courses of action sets her apart as an invaluable asset to any team. What truly distinguishes Rediet is her unwavering dedication to her software engineering goals. She approaches every endeavor with an unwavering sense of purpose, seeking excellence in every aspect of her work. Her tenacity and drive serve as an inspiring example to us fortunate enough to work alongside her. Beyond her technical acumen, Rediet's collaborative spirit and open-mindedness have fostered a nurturing environment within our group. Her willingness to share ideas and provide insightful advice has been instrumental in the collective growth and development of each team member. It is without reservation that I recommend Rediet for any opportunity that aligns with her aspirations. She possesses the qualities of a true leader and a diligent problem solver, making her an ideal candidate for any endeavor she chooses to undertake. I do not doubt that Rediet will make significant contributions to any organization fortunate enough to have her on board. If you require further information or insights about Rediet, please do not hesitate to reach out. It would be my pleasure to elaborate on her exceptional qualities and potential.`,
+      testimonial: `Rediet is a remarkable individual with whom we have had the privilege of collaborating closely over the past six months. As a valued member of our peer learning group, Rediet has consistently demonstrated a profound passion for software engineering and a remarkable commitment to personal and professional growth. 
+
+      Throughout our weekly meetings, Rediet exhibited an exceptional aptitude for grasping complex concepts, particularly in discussions on projects, data structures, and algorithms. Her ability to delve deeply into intricate problem-solving scenarios, meticulously dissect challenges, and identify optimal courses of action sets her apart as an invaluable asset to any team. 
+      
+      What truly distinguishes Rediet is her unwavering dedication to her software engineering goals. She approaches every endeavor with an unwavering sense of purpose, seeking excellence in every aspect of her work. Her tenacity and drive serve as an inspiring example to us fortunate enough to work alongside her. 
+      
+      Beyond her technical acumen, Rediet's collaborative spirit and open-mindedness have fostered a nurturing environment within our group. Her willingness to share ideas and provide insightful advice has been instrumental in the collective growth and development of each team member. 
+      
+      It is without reservation that I recommend Rediet for any opportunity that aligns with her aspirations. She possesses the qualities of a true leader and a diligent problem solver, making her an ideal candidate for any endeavor she chooses to undertake. I do not doubt that Rediet will make significant contributions to any organization fortunate enough to have her on board. 
+      
+      If you require further information or insights about Rediet, please do not hesitate to reach out. It would be my pleasure to elaborate on her exceptional qualities and potential.`,
       name: "Nick Nyanjui",
       designation: "Software Engineer",
       company: "from SE Peer Learning Group",
@@ -277,7 +287,13 @@ import {
     },
     {
       testimonial:
-        "I wholeheartedly recommend Rediet for any development team or project. We're both enrolled in the Software Engineering master's program, where we tackle different projects. Whenever we collaborate, it becomes evident that she possesses a profound understanding of her field and conducts herself with utmost professionalism. One remarkable quality about Rediet is her ability to take charge during discussions and contribute ideas confidently. She has a natural knack for problem-solving and consistently impresses me with her innovative solutions. It's like she has an endless supply of brilliant ideas! What truly sets Rediet apart from others is her unwavering commitment to seeing every project through completion. Once she takes on a task, there's no stopping her until it's done. Her level of dedication is truly awe-inspiring and demonstrates immense perseverance. I genuinely believe that Rediet deserves all the success she dreams of because she possesses exceptional skills coupled with unwavering determination. There are absolutely no limits to what she can achieve when given the opportunity.",
+        `I wholeheartedly recommend Rediet for any development team or project. We're both enrolled in the Software Engineering master's program, where we tackle different projects. Whenever we collaborate, it becomes evident that she possesses a profound understanding of her field and conducts herself with utmost professionalism. 
+        
+        One remarkable quality about Rediet is her ability to take charge during discussions and contribute ideas confidently. She has a natural knack for problem-solving and consistently impresses me with her innovative solutions. It's like she has an endless supply of brilliant ideas! 
+        
+        What truly sets Rediet apart from others is her unwavering commitment to seeing every project through completion. Once she takes on a task, there's no stopping her until it's done. Her level of dedication is truly awe-inspiring and demonstrates immense perseverance.
+        
+        I genuinely believe that Rediet deserves all the success she dreams of because she possesses exceptional skills coupled with unwavering determination. There are absolutely no limits to what she can achieve when given the opportunity.`,
       name: "Teshome Kurabachew",
       designation: "Full-stack Developer | Software Engineer | DevOps Engineer",
       company: "",

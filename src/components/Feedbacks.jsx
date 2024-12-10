@@ -14,7 +14,10 @@ const FeedbackCard = ({ index, testimonial, name, designation,
 
       <p className="text-white font-black text-[48px]">"</p>
       <div className="mt-1">
-        <p className="text-white tracking-wider text-[14px]">
+        <p 
+          className="text-white tracking-wider text-[14px]"
+          style={{ whiteSpace: 'pre-line' }}  // Preserve line breaks
+        >
           {testimonial}
         </p>
         <div className="mt-7 flex justify-between items-center

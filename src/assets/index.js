@@ -22,7 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import c from "./tech/c.png";
 import express from "./tech/express.png";
-import flask from "./tech/flask.png";
+import flask from "./tech/flask.svg";
 import haproxy from "./tech/haproxy.png";
 import jquery from "./tech/jquery.png";
 import keras from "./tech/keras.png";
@@ -33,7 +33,19 @@ import python from "./tech/python.png";
 import redis from './tech/redis.png';
 import sequelize from './tech/sequelize.png';
 import django_rest_framework from './tech/django_rest_framework.png';
-
+import serverless_framework from './tech/serverless_framework.svg';
+import sql from './tech/sql.png';
+import xstate from './tech/xstate.png';
+import aggrid from './tech/aggrid.png';
+import sqlalchemy from './tech/sqlalchemy.png';
+import css3 from './tech/css3.png';
+import html5 from './tech/html5.png';
+import postgressql from './tech/postgressql.png';
+import material_ui from './tech/material_ui.png';
+import nextjs from './tech/nextjs.png';
+import aws from './tech/aws.png';
+import fastapi from './tech/fastapi.png';
+import stripe from './tech/stripe.png';
 
 
 
@@ -130,4 +142,17 @@ export {
   aau,
   nilesync,
   django_rest_framework,
+  serverless_framework,
+  sql,
+  xstate,
+  aggrid,
+  sqlalchemy,
+  css3,
+  html5,
+  postgressql,
+  material_ui,
+  nextjs,
+  aws,
+  fastapi,
+  stripe,
 };

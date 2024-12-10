@@ -1,9 +1,9 @@
-import React, { Suspense, useState } from 'react'
+import React, { Suspense, useMemo, useState } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Decal, Float, OrbitControls, Preload, useTexture } 
 from '@react-three/drei'
 import CanvasLoader from '../Loader'
-import { DoubleSide } from 'three';
+import { DoubleSide, FrontSide } from 'three';
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
@@ -22,13 +22,16 @@ const Ball = (props) => {
         onPointerOut={() => setHovered(false)}
       >
         <planeGeometry />
-        <meshBasicMaterial color="white" side={DoubleSide} map={decal}/>
+        <meshBasicMaterial color="white" side={FrontSide} map={decal}/>
       </mesh>
     </Float>
   );
 };
 
 const BallCanvas = ({ icon }) => {
+
+  const memoizedIcon = useMemo(() => icon, [icon]);
+
   return (
     <Canvas 
       frameloop='demand'
@@ -38,7 +41,7 @@ const BallCanvas = ({ icon }) => {
         <OrbitControls
           enableZoom={false}
         />
-        <Ball imgUrl={icon}/>
+        <Ball imgUrl={memoizedIcon}/>
       </Suspense>
 
       <Preload all />

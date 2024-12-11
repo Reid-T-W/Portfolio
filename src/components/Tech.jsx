@@ -1,7 +1,6 @@
 import React from 'react';
 import { BallCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
-import { technologies } from '../constants';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { textVariant } from '../utils/motion';
@@ -15,7 +14,10 @@ const Tech = () => {
           Technologies
         </h2>
       </motion.div>
-      <div className="flex flex-row flex-wrap justify-center
+      <div className="w-full h-96">
+        <BallCanvas />
+      </div>
+      {/* <div className="flex flex-row flex-wrap justify-center
         gap-10">
           {technologies.map((technology) => (
             <div key={technology.name} className="flex flex-col justify-center text-center items-center">
@@ -25,7 +27,7 @@ const Tech = () => {
               <p>{technology.name}</p>
             </div>
           ))}
-      </div>
+      </div> */}
     </>
   )
 }

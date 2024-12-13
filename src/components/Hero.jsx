@@ -26,7 +26,7 @@ const Hero = () => {
         </div>  
       </div>
       {/* <Connectors /> */}
-      <div className='flex flex-row justify-center absolute inset-0 top-[360px] p-4'>
+      <div className='flex flex-row justify-center absolute inset-0 top-[360px] p-4 w-full'>
         {/* <ComputersCanvas className='grow-0' /> */}
           <YoutubeVideo className='grow relative z-10' />
         

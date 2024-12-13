@@ -45,7 +45,7 @@ import material_ui from './tech/material_ui.png';
 import nextjs from './tech/nextjs.png';
 import aws from './tech/aws.png';
 import fastapi from './tech/fastapi.png';
-import stripe from './tech/stripe.png';
+import stripe from './tech/stripe.svg';
 
 
 

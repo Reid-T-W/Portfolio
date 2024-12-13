@@ -46,7 +46,7 @@ const BallCanvas = () => {
       <Suspense fallback={<CanvasLoader />}>
         {technologies.map((technology, index) => {
           const outerGroupX = (index % 8 - 3) * 0.85;
-          const outerGroupY = -Math.floor(index / 8) + 2;
+          const outerGroupY = -Math.floor(index / 8) + 3;
           const innerGroupX = (index % 8 - 3) * 0.85;
           const innerGroupY = -Math.floor(index / 8)
 
@@ -56,8 +56,8 @@ const BallCanvas = () => {
                   enableZoom={false}
                   maxPolarAngle={Math.PI / 1.8}
                   minPolarAngle={Math.PI / 2}
-                  minAzimuthAngle={-Math.PI / 15}
-                  maxAzimuthAngle={Math.PI / 15}
+                  minAzimuthAngle={-Math.PI / 40}
+                  maxAzimuthAngle={Math.PI / 40}
                 />
                 <Ball key={technology.name} imgUrl={technology.icon} position={[innerGroupX, innerGroupY, 0]} />
               </group>

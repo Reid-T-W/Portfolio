@@ -210,8 +210,24 @@ import {
     //   icon: css,
     // },
     {
+      name: "Python",
+      icon: python,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "FastAPI",
+      icon: fastapi,
+    },
+    {
+      name: "Django Rest Framework",
+      icon: django_rest_framework,
+    },
+    {
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "React JS",
@@ -258,10 +274,6 @@ import {
     //   icon: mysql,
     // },
     {
-      name: "Python",
-      icon: python,
-    },
-    {
       name: "Redis",
       icon: redis,
     },
@@ -270,20 +282,12 @@ import {
       icon: sequelize,
     },
     {
-      name: "Django Rest Framework",
-      icon: django_rest_framework,
-    },
-    {
       name: "Serverless Framework",
       icon: serverless_framework,
     },
     {
       name: "SQL",
       icon: sql,
-    },
-    {
-      name: "XState",
-      icon: xstate,
     },
     {
       name: "AgGrid",
@@ -306,21 +310,17 @@ import {
       icon: material_ui,
     },
     {
-      name: "Next JS",
-      icon: nextjs,
-    },
-    {
       name: "AWS",
       icon: aws,
     },
     {
-      name: "FastAPI",
-      icon: fastapi,
-    },
-    {
       name: "Stripe",
       icon: stripe,
-    }
+    },
+    {
+      name: "XState",
+      icon: xstate,
+    },
   ];
   
   const education = [

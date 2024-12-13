@@ -29,19 +29,13 @@ const Ball = ({imgUrl, position}) => {
         >
           <planeGeometry />
           <meshBasicMaterial color="white" side={DoubleSide} map={decal}/>
-
-          {/* <gridHelper />
-          <axesHelper args={[5]} /> */}
         </mesh>
       </Float>
     </group>
   );
 };
 
-// const BallCanvas = ({ icon }) => {
-const BallCanvas = () => {
-
-  // const memoizedIcon = useMemo(() => icon, [icon]);
+const BallCanvas = () => 
 
   return (
     <Canvas 
@@ -69,7 +63,6 @@ const BallCanvas = () => {
               </group>
           )
         })}
-        {/* <Ball imgUrl={memoizedIcon}/> */}
       </Suspense>
 
       <Preload all />

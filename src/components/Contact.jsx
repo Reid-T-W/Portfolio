@@ -9,6 +9,8 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+import { toast } from 'react-toastify';
+
 const emailJsPublicKey = import.meta.env.VITE_REACT_APP_EMAIL_JS_PUBLIC_KEY;
 const emailJsServiceId = import.meta.env.VITE_REACT_APP_EMAIL_JS_SERVICE_ID
 const emailJsTemplateId = import.meta.env.VITE_REACT_APP_EMAIL_JS_TEMPLATE_ID
@@ -46,7 +48,7 @@ const Contact = () => {
                 )
                 .then(()=> {
                   setLoading(false);
-                  alert('Thank you, I will get back to you as soon as possible.');
+                  toast.success('Message sent successfully!');
 
                   setForm({
                     name: "",
@@ -56,7 +58,7 @@ const Contact = () => {
                 }, (error) => {
                   setLoading(false);
                   console.log(error);
-                  alert('Sorry, something went wrong. Please try again later.');
+                  toast.error('Sorry, something went wrong. Please try again.');
                 })
   }
 

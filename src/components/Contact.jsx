@@ -4,10 +4,14 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
 import { styles } from '../styles';
+import process from 'process';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+const emailJsPublicKey = import.meta.env.VITE_REACT_APP_EMAIL_JS_PUBLIC_KEY;
+const emailJsServiceId = import.meta.env.VITE_REACT_APP_EMAIL_JS_SERVICE_ID
+const emailJsTemplateId = import.meta.env.VITE_REACT_APP_EMAIL_JS_TEMPLATE_ID
 
 const Contact = () => {
   const formRef = useRef();
@@ -28,8 +32,8 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.send('service_bm3gkv6', 
-                'template_0mpz9tv',
+    emailjs.send(emailJsServiceId, 
+                 emailJsTemplateId,
                 {
                   from_name: form.name,
                   to_name: 'Rediet',
@@ -38,7 +42,7 @@ const Contact = () => {
                   message: form.message,
                   reply_to: form.email,
                 },
-                '15U7AEAryTGZOrtAW'
+                emailJsPublicKey // EmailJs public key
                 )
                 .then(()=> {
                   setLoading(false);

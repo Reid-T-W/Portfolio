@@ -6,11 +6,10 @@ import CanvasLoader from '../Loader'
 import { DoubleSide, FrontSide } from 'three';
 import { technologies } from '../../constants';
 
-// const Ball = (props) => {
+
 const Ball = ({imgUrl, position}) => {
   const [decal] = useTexture([imgUrl]);
   const [hovered, setHovered] = useState(false);
-
 
   return (
     <group position={position}>
@@ -35,7 +34,8 @@ const Ball = ({imgUrl, position}) => {
   );
 };
 
-const BallCanvas = () => 
+
+const BallCanvas = () => {
 
   return (
     <Canvas 
@@ -63,6 +63,7 @@ const BallCanvas = () =>
               </group>
           )
         })}
+
       </Suspense>
 
       <Preload all />

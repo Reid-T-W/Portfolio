@@ -4,8 +4,12 @@ import { SectionWrapper } from '../hoc';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { textVariant } from '../utils/motion';
+import useIsMobile from '../hooks/useIsMobile';
+import TechIcons from './TechIcons';
 
 const Tech = () => {
+  const [isMobile] = useIsMobile();
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -14,8 +18,15 @@ const Tech = () => {
           Technologies
         </h2>
       </motion.div>
-      <div className="w-full h-96">
-        <BallCanvas />
+      <div className="w-full">
+        {!isMobile ? (
+          <div className="h-96">
+            <BallCanvas />
+          </div>
+          ):(
+            <TechIcons />
+          )
+        }
       </div>
       {/* <div className="flex flex-row flex-wrap justify-center
         gap-10">

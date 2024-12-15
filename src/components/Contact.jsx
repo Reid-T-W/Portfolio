@@ -14,6 +14,8 @@ import { toast } from 'react-toastify';
 const emailJsPublicKey = import.meta.env.VITE_REACT_APP_EMAIL_JS_PUBLIC_KEY;
 const emailJsServiceId = import.meta.env.VITE_REACT_APP_EMAIL_JS_SERVICE_ID
 const emailJsTemplateId = import.meta.env.VITE_REACT_APP_EMAIL_JS_TEMPLATE_ID
+const emailJsEmailToEmail = import.meta.env.VITE_REACT_APP_EMAIL_JS_EMAIL_TO_EMAIL
+const emailJsEmailToName = import.meta.env.VITE_REACT_APP_EMAIL_JS_EMAIL_TO_NAME
 
 const Contact = () => {
   const formRef = useRef();
@@ -38,9 +40,9 @@ const Contact = () => {
                  emailJsTemplateId,
                 {
                   from_name: form.name,
-                  to_name: 'Rediet',
+                  to_name: emailJsEmailToName,
                   from_email: form.email,
-                  to_email: 'rediettadesse100@gmail.com',
+                  to_email: emailJsEmailToEmail,
                   message: form.message,
                   reply_to: form.email,
                 },

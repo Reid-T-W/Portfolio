@@ -177,8 +177,10 @@ import {
       // source_link: "https://drive.google.com/file/d/1hu_wxUr7hwE7qI2FzH0sPcu1PEVmfLTh/view?usp=sharing",
 
       // verison 4 Google Research Application
-      source_link: "https://drive.google.com/file/d/1iq4ysVeCdv-SOKITojdZW8hhZbch6k1o/view?usp=sharing",
+      // source_link: "https://drive.google.com/file/d/1iq4ysVeCdv-SOKITojdZW8hhZbch6k1o/view?usp=sharing",
 
+      // Dec 15 2024 Update
+      source_link: "https://drive.google.com/file/d/1KJWrEsxu8xFyN8e3EJng3YFfru2LvLJR/view?usp=sharing"
     }
   ];
 
